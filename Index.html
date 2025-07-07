@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore With Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ExploreWithUs</a>
+    <div class="ms-auto">
+      <button id="darkToggle" class="btn btn-outline-dark">🌙</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center py-5">
+  <h1>Discover Beautiful Places</h1>
+  <p>Your personal travel companion to unforgettable adventures.</p>
+</section>
+
+<!-- Filters -->
+<div class="text-center my-4">
+  <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+  <button class="btn btn-primary filter-btn" data-filter="beach">Beach</button>
+  <button class="btn btn-primary filter-btn" data-filter="hill">Hill</button>
+  <button class="btn btn-primary filter-btn" data-filter="heritage">Heritage</button>
+</div>
+
+<!-- Destinations -->
+<div class="container">
+  <div class="row g-4">
+    <div class="col-md-4 card-item" data-category="beach">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.1-GD4WUK1Fj43Sfa9LtmlwHaF7?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4 card-item" data-category="beach">
+      <img src="https://costa-rica-guide.com/wp-content/uploads/2015/05/P21100391.jpg" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4 card-item" data-category="hill">
+      <img src="https://cdn.pixabay.com/photo/2019/12/28/14/00/hill-4724723_1280.jpg" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4 card-item" data-category="hill">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.EThcOp_7ORqA45hM33ZagQHaE8?w=669&h=446&rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4 card-item" data-category="heritage">
+      <img src="https://www.roadaffair.com/wp-content/uploads/2017/12/taj-mahal-india-shutterstock_180918317.jpg" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4 card-item" data-category="heritage">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.ZkJs90JKPCt30HWKr6M0zQHaFG?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+<section id="why" class="section">
+  <h2>Why Travel With Us</h2>
+  <ul>
+    <li>Friendly & Knowledgeable Guides</li>
+    <li>Trips Tailored Just for You</li>
+    <li>Help Available Anytime</li>
+  </ul>
+</section>
+
+<section id="contact" class="section">
+  <h2>Get In Touch</h2>
+  <p>Email: hello@explorewithus.com</p>
+  <p>Call Us: +91 98765 43210</p>
+</section>
+
+<button id="backToTop" title="Scroll to Top">⬆️</button>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

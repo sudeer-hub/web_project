@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.4s;
+}
+
+.hero {
+  background: linear-gradient(135deg, #a2d4f6, #d4f1f9);
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #dddddd;
+}
+
+body.dark .navbar {
+  background-color: #1f1f1f;
+}
+
+body.dark .hero {
+  background: linear-gradient(135deg, #333333, #222222);
+}
+
+body.dark .btn-primary {
+  background-color: #444 !important;
+  border-color: #444 !important;
+  color: #fff;
+}
+/* === Why Travel With Us & Get In Touch Sections === */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.section ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* === Contact Text === */
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* === Dark Mode for Sections === */
+body.dark .section {
+  background-color: #1f1f1f;
+}
+
+body.dark .section h2,
+body.dark .section ul li,
+body.dark #contact p {
+  color: #ddd;
+}
+
+/* === Back to Top Button === */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  font-size: 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #0a58ca;
+}
+
+/* Dark mode for the Back to Top button */
+body.dark #backToTop {
+  background-color: #444;
+}
+
+body.dark #backToTop:hover {
+  background-color: #666;
+}
